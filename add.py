@@ -6,10 +6,10 @@ commit = "Added project files"
 
 if len(sys.argv) == 1:
 	os.system("git add -A; git commit -m \"Update\"; git push origin master")
-
-dir_name = sys.argv[2]
+if len(sys.argv) == 2:
+	dir_name = sys.argv[1]
 if len(sys.argv) > 2:
-	commit = sys.argv[3]
+	commit = sys.argv[2]
 
 print(dir_name)
 print(commit)
