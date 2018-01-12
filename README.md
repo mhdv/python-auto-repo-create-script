@@ -1,1 +1,1 @@
-made_with_python_and_hub_lib
+These scripts were made to automate creating my repos.
